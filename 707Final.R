@@ -19,7 +19,7 @@ pairs(casual~.,bike.data)
 # Check the correlation matrix
 cor(bike.data)
 
-# We checked the correlation matrix (not included here) and there are some mild and a few strong correlations between the
+# The correlation matrix shows that there are some mild and a few strong correlations between the
 # variables. The cor() function uses the Pearson correlation coefficient which is a measure of linear dependence. For
 # instance, in the case of our response variable  "casual", the first three  largest correlation coefficients correspond to
 # the variables "registered", and the two measurements of temperature(atemp for the "feels like" temperature). These
